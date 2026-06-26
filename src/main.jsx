@@ -423,7 +423,6 @@ function FrontDesk({ form, selectedRoom, selectedRoomId, selectedSlot, onField, 
 
         <aside className="room-detail">
           <RoomCard room={selectedRoom} selectedSlot={selectedSlot} />
-          <UtilizationCard />
         </aside>
       </div>
 
